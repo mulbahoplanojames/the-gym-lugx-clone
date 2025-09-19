@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
+  </head>
+  <body>
+    <!-- header section -->
+    <nav
+      id="navbar"
+      class="py-3 bg-[#0071f8] fixed w-full top-0 backdrop-blur-md text-white transition-colors duration-500 rounded-br-4xl rounded-bl-4xl z-30"
+    >
+      <div
+        class="container mx-auto md:px-10 px-4 w-full flex justify-between items-center"
+      >
+        <!-- logo  -->
+        <div class="lg:w-32 lg:h-14 md:w-24 w-20 h-10 md:h-10 overflow-hidden">
+          <img
+            src="/public/logo.png"
+            alt="logo"
+            class="object-contain object-center h-full w-full"
+          />
+        </div>
+        <!-- links  -->
+        <menu
+          class="lg:space-x-4 md:space-x-1 lg:text-base font-light text-sm md:block hidden"
+        >
+          <a href="/index.html" class="py-3 px-5 rounded-3xl">Home</a>
+          <a
+            href="/src/shop.html"
+            class="hover:bg-primary/40 py-3 px-4 rounded-3xl font-light transition-all duration-200 ease-in"
+            >Our Shop</a
+          >
+          <a
+            href="/src/products.html"
+            class="hover:bg-primary/40 py-3 px-5 rounded-3xl font-light transition-all duration-200 ease-in"
+            >Product Details</a
+          >
+          <a
+            href="#"
+            class="hover:bg-primary/40 bg-primary/40 py-3 px-5 rounded-3xl font-light transition-all duration-200 ease-in"
+            >Contact US</a
+          >
+          <a
+            href="/src/signin.html"
+            class="bg-[#ee626b] text-white uppercase lg:py-3 lg:px-5 py-2 px-3 font-light rounded-3xl transition-all duration-200 ease-in"
+            >Sign In</a
+          >
+        </menu>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="28"
+          height="28"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-menu-icon lucide-menu md:hidden block"
+        >
+          <path d="M4 5h16" />
+          <path d="M4 12h16" />
+          <path d="M4 19h16" />
+        </svg>
+      </div>
+    </nav>
+
+    <script src="/src/js/demo.js"></script>
+  </body>
+</html>
